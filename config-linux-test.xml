@@ -9,8 +9,6 @@
     <files>
         <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.8/fx-1.0.8-SNAPSHOT.jar" size="663393" checksum="f040e729" modulePath="true"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulePath="true"/>
-        <file uri="${maven.central}/org/openjfx/javafx-swing/17-ea+7/javafx-swing-17-ea+7.jar" size="303" checksum="69294607"/>
-        <file uri="${maven.central}/org/openjfx/javafx-swing/17-ea+7/javafx-swing-17-ea+7-linux.jar" size="88752" checksum="3d7fb0f3" modulePath="true"/>
         <file uri="${maven.central}/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar" size="285424" checksum="1e00f4fc" modulePath="true"/>
         <file uri="${maven.central}/org/apache/commons/commons-configuration2/2.7/commons-configuration2-2.7.jar" size="622580" checksum="3381c114" modulePath="true"/>
         <file uri="${maven.central}/org/apache/commons/commons-text/1.8/commons-text-1.8.jar" size="207030" checksum="a4a6ba58" modulePath="true"/>
