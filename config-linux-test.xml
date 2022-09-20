@@ -27,7 +27,7 @@
         <file uri="${maven.central}/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar" size="1506993" checksum="a16f1c0c" modulePath="true"/>
         <file uri="${maven.central}/org/glassfish/jersey/core/jersey-client/3.0.5/jersey-client-3.0.5.jar" size="261150" checksum="412f7c34" modulePath="true"/>
         <file uri="${maven.central}/jakarta/ws/rs/jakarta.ws.rs-api/3.0.0/jakarta.ws.rs-api-3.0.0.jar" size="138761" checksum="1716e8b" modulePath="true"/>
-        <file uri="${maven.central}/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar" size="10681" checksum="ed71bcd4" modulePath="true"/>
+        <file uri="${maven.central}/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar" size="10681" checksum="ed71bcd4" modulePath="true" ignoreBootConflict="true"/>
         <file uri="${maven.central}/org/glassfish/jersey/inject/jersey-hk2/3.0.5/jersey-hk2-3.0.5.jar" size="78396" checksum="2ac286c6" modulePath="true"/>
         <file uri="${maven.central}/org/glassfish/hk2/hk2-locator/3.0.3/hk2-locator-3.0.3.jar" size="203950" checksum="24847e25" modulePath="true"/>
         <file uri="${maven.central}/org/glassfish/hk2/external/aopalliance-repackaged/3.0.3/aopalliance-repackaged-3.0.3.jar" size="27129" checksum="12d9b781" modulePath="true"/>
