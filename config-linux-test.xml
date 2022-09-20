@@ -8,7 +8,7 @@
     </properties>
     <files>
         <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.8/fx-1.0.8-SNAPSHOT.jar" size="663393" checksum="f040e729" modulePath="true"/>
-        <file uri="https://github.com/unigrid-project/daemon/releases/download/v2.9.2/unigrid-2.9.2-x86_64-linux-gnu.tar.gz" size="7272566" checksum="4fe8011" modulePath="true"/>
+        <file uri="https://github.com/unigrid-project/daemon/releases/download/v2.9.2/unigrid-2.9.2-x86_64-linux-gnu.tar.gz" size="7272566" checksum="4fe8011"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulePath="true"/>
         <file uri="${maven.central}/org/openjfx/javafx-swing/17-ea+7/javafx-swing-17-ea+7.jar" size="303" checksum="69294607" modulePath="true"/>
         <file uri="${maven.central}/org/openjfx/javafx-swing/17-ea+7/javafx-swing-17-ea+7-linux.jar" size="88752" checksum="3d7fb0f3" modulePath="true"/>
