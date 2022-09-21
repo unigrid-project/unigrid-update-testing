@@ -12,7 +12,7 @@
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulePath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" size="1972167" checksum="ccf16270" modulePath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/openjfx/javafx-swing/17-ea+7/javafx-swing-17-ea+7.jar" size="303" checksum="69294607" modulePath="true" ignoreBootConflict="true"/>
-        <file uri="${maven.central}/org/openjfx/javafx-swing/17-ea+7/javafx-swing-17-ea+7-linux.jar" size="88752" checksum="3d7fb0f3" modulePath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/openjfx/javafx-swing/17-ea+7/javafx-swing-17-ea+7-linux.jar" size="88752" checksum="3d7fb0f3" modulePath="true" ignoreBootConflict="true"/>
         <file uri="${maven.central}/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar" size="501879" checksum="d783a8c4" modulePath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar" size="285424" checksum="1e00f4fc" modulePath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/apache/commons/commons-configuration2/2.7/commons-configuration2-2.7.jar" size="622580" checksum="3381c114" modulePath="true" ignoreBootConflict="false"/>
