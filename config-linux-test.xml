@@ -7,7 +7,6 @@
         <property key="fx.version" value="1.0.8"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.8/fx-${fx.version}-SNAPSHOT.jar" size="668843" checksum="eca72cb9" modulePath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemon/releases/download/v2.9.2/unigrid-2.9.2-x86_64-linux-gnu.tar.gz" size="7272566" checksum="4fe8011" modulePath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulePath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" size="1972167" checksum="ccf16270" modulePath="true" ignoreBootConflict="false"/>
