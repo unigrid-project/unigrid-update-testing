@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2022-09-20T14:35:53.519Z">
+<configuration timestamp="2022-09-21T13:28:02.154Z">
     <base path="${user.home}/.unigrid/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
@@ -7,7 +7,7 @@
         <property key="fx.version" value="1.0.8"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.8/fx-${fx.version}-SNAPSHOT.jar" size="668798" checksum="b726b85d" modulePath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.8/fx-${fx.version}-SNAPSHOT.jar" size="668843" checksum="eca72cb9" modulePath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemon/releases/download/v2.9.2/unigrid-2.9.2-x86_64-linux-gnu.tar.gz" size="7272566" checksum="4fe8011" modulePath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulePath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" size="1972167" checksum="ccf16270" modulePath="true" ignoreBootConflict="false"/>
@@ -18,7 +18,11 @@
         <file uri="${maven.central}/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" size="61829" checksum="e448532d" modulePath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar" size="246918" checksum="8698650c" modulePath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" size="588337" checksum="4fa9d731" modulePath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/jakarta/xml/bind/jakarta.xml.bind-api/3.0.1/jakarta.xml.bind-api-3.0.1.jar" size="128941" checksum="949c8acb" modulePath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/jakarta/xml/bind/jakarta.xml.bind-api/3.0.1/jakarta.xml.bind-api-3.0.1.jar" size="128941" checksum="949c8acb" modulePath="true" ignoreBootConflict="false">
+            <addOpens>
+                <opens package="jakarta.xml.bind" target="fx/org.unigrid.janus.model.entity"/>
+            </addOpens>
+        </file>
         <file uri="${maven.central}/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar" size="62154" checksum="494d22e9" modulePath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/glassfish/jaxb/jaxb-runtime/3.0.2/jaxb-runtime-3.0.2.jar" size="913701" checksum="281f36c" modulePath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/glassfish/jaxb/jaxb-core/3.0.2/jaxb-core-3.0.2.jar" size="139727" checksum="5a3cde99" modulePath="true" ignoreBootConflict="false"/>
