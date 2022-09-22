@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2022-09-21T23:45:04.249Z">
+<configuration timestamp="2022-09-22T00:12:54.719Z">
     <base path="${user.home}/.unigrid/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
@@ -7,7 +7,7 @@
         <property key="fx.version" value="1.0.8"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.8/fx-${fx.version}-SNAPSHOT.jar" size="668841" checksum="e38399f7" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.8/fx-${fx.version}-SNAPSHOT.jar" size="668840" checksum="7a2da5ba" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemon/releases/download/v2.9.2/unigrid-2.9.2-x86_64-linux-gnu.tar.gz" size="7272566" checksum="4fe8011" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" size="1972167" checksum="ccf16270" modulepath="true" ignoreBootConflict="false"/>
