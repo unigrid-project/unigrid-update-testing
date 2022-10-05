@@ -20,7 +20,7 @@
         <file uri="${maven.central}/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" size="588337" checksum="4fa9d731" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/jakarta/xml/bind/jakarta.xml.bind-api/3.0.1/jakarta.xml.bind-api-3.0.1.jar" size="128941" checksum="949c8acb" modulepath="true" ignoreBootConflict="false">
             <addOpens>
-                <opens package="jakarta.xml.bind" target="fx/org.unigrid.janus.model.entity"/>
+                <opens package="jakarta.xml.bind" target="fx"/>
             </addOpens>
         </file>
         <file uri="${maven.central}/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar" size="62154" checksum="494d22e9" modulepath="true" ignoreBootConflict="false"/>
