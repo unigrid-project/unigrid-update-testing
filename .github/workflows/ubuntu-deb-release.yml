@@ -1,0 +1,41 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - v*
+
+  workflow_dispatch:
+
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: master
+      - run: git fetch -f --tags
+  
+      - name: Set to env
+        run: |
+          echo "TAG=$(git describe --tags --abbrev=0 --match v*)" >> $GITHUB_ENV
+          echo "VERSION=$(git describe --tags --abbrev=0 --match v* | cut --complement -c 1 )" >> $GITHUB_ENV
+
+      - name: create release
+        run: |
+          git config user.name 'Github Actions'
+          git config user.email 'actions@github.com'
+          gh release create ${{ env.TAG }} -d -p --generate-notes
+          sleep 5
+          gh release upload ${{ env.TAG }} fx-${{ env.VERSION }}.jar
+
+      - name: remove fx.jar
+        run: |
+          rm -rf fx*.jar
+          git add .
+          git commit -m "remove fx.jar"
+          git push origin master
