@@ -9,7 +9,7 @@
     <files>
         <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.11/fx-${fx.version}-SNAPSHOT.jar" size="680788" checksum="eb454175" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemon/releases/download/v2.9.3/unigrid-2.9.3-x86_64-linux-gnu.tar.gz" size="7272269" checksum="573dbe54" modulepath="false" ignoreBootConflict="false"/>
-        <file uri="https://drive.google.com/uc?export=download&amp;id=12_uJO6wa-Q43EQc8_PxuLXapZIQWeZg8" size="144316" checksum="1b59cd39" modulepath="false" ignoreBootConflict="false"/>
+        <file uri="https://drive.google.com/uc?export=download&amp;id=12_uJO6wa-Q43EQc8_PxuLXapZIQWeZg8" size="142795" checksum="1b59cd39" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" size="1972167" checksum="ccf16270" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar" size="501879" checksum="d783a8c4" modulepath="true" ignoreBootConflict="false"/>
