@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2023-03-08T09:32:04.287Z">
+<configuration timestamp="2023-04-11T12:42:20.638Z">
     <base path="${user.home}/.unigrid/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
         <property key="default.launcher.main.class" value="org.unigrid.janus.Janus"/>
         <property key="fx.version" value="1.0.11"/>
-        <property key="bootstrapVersion" value="1.0.10"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.11/fx-1.0.11-SNAPSHOT.jar" size="683756" checksum="de3316ae" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.3/unigrid-2.9.3-x86_64-linux-gnu.tar.gz" size="57968640" checksum="c14c7b3" modulepath="false" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.11/fx-1.0.11.jar" size="683767" checksum="a4a7e2de" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.4/unigrid-2.9.4-x86_64-linux-gnu.tar.gz" size="9340499" checksum="9125fc4a" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.1/hedgehog-0.0.1-x86_64-linux-gnu.bin" size="106533440" checksum="2c8e8e20" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" size="1972167" checksum="ccf16270" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/openjfx/javafx-controls/17-ea+7/javafx-controls-17-ea+7.jar" size="306" checksum="5c244c88" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/openjfx/javafx-controls/17-ea+7/javafx-controls-17-ea+7-linux.jar" size="2534033" checksum="edda8b47" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/openjfx/javafx-graphics/17-ea+7/javafx-graphics-17-ea+7.jar" size="306" checksum="21d47da" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/openjfx/javafx-graphics/17-ea+7/javafx-graphics-17-ea+7-linux.jar" size="4879620" checksum="ac656365" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/openjfx/javafx-base/17-ea+7/javafx-base-17-ea+7.jar" size="302" checksum="97d14934" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/openjfx/javafx-base/17-ea+7/javafx-base-17-ea+7-linux.jar" size="745947" checksum="aa5655be" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/openjfx/javafx-fxml/17-ea+7/javafx-fxml-17-ea+7.jar" size="302" checksum="85a4846" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/openjfx/javafx-fxml/17-ea+7/javafx-fxml-17-ea+7-linux.jar" size="129375" checksum="b6ca0e2c" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/openjfx/javafx-media/17-ea+7/javafx-media-17-ea+7.jar" size="303" checksum="f0a446e7" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/openjfx/javafx-media/17-ea+7/javafx-media-17-ea+7-linux.jar" size="1360185" checksum="87476c9b" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar" size="501879" checksum="d783a8c4" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar" size="285424" checksum="1e00f4fc" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/apache/commons/commons-configuration2/2.7/commons-configuration2-2.7.jar" size="622580" checksum="3381c114" modulepath="true" ignoreBootConflict="false"/>
@@ -32,6 +41,7 @@
         <file uri="${maven.central}/com/sun/istack/istack-commons-runtime/4.0.1/istack-commons-runtime-4.0.1.jar" size="29896" checksum="7c061058" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/sun/xml/fastinfoset/FastInfoset/2.1.0/FastInfoset-2.1.0.jar" size="316318" checksum="e6b8e4c3" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/kordamp/jipsy/jipsy-annotations/1.1.1/jipsy-annotations-1.1.1.jar" size="8723" checksum="e7af0112" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/update4j/update4j/1.5.9/update4j-1.5.9.jar" size="129526" checksum="e50405a0" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar" size="2681931" checksum="b8268a38" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar" size="1506993" checksum="a16f1c0c" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/glassfish/jersey/core/jersey-client/3.0.5/jersey-client-3.0.5.jar" size="261150" checksum="412f7c34" modulepath="true" ignoreBootConflict="false"/>
