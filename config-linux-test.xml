@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2023-04-18T12:12:19.317Z">
+<configuration timestamp="2023-04-18T13:39:03.138Z">
     <base path="${user.home}/.unigrid/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
@@ -8,8 +8,8 @@
         <property key="bootstrapVersion" value="1.0.10"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.12/fx-1.0.12.jar" size="684264" checksum="b418b5d1" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.4/unigrid-2.9.4-x86_64-linux-gnu.tar.gz" size="87208352" checksum="8e9d0818" modulepath="false" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.12/fx-1.0.12.jar" size="684264" checksum="99b8448" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.4/unigrid-2.9.4-x86_64-linux-gnu.tar.gz" size="9318917" checksum="177a4780" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.1/hedgehog-0.0.1-x86_64-linux-gnu.bin" size="107991616" checksum="6e43df9c" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" size="1972167" checksum="ccf16270" modulepath="true" ignoreBootConflict="false"/>
