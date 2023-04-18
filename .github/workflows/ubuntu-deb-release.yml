@@ -1,0 +1,51 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_version:
+        description: 'Release version'
+        required: true
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+      - run: git fetch -f --tags
+
+      - name: Set to env
+        run: |
+          echo "VERSION=$(echo ${{ inputs.release_version }} | cut --complement -c 1 )" >> $GITHUB_ENV
+
+      - name: create tag
+        run: |
+          git config user.name 'Github Actions'
+          git config user.email 'actions@github.com'
+          git tag -f -a ${{ inputs.release_version }} -m "Tag for release"
+          git push origin ${{ inputs.release_version }}
+
+
+      - name: create release
+        run: |
+          git fetch -f --tags
+          NOTES_FILE=$(mktemp)
+          echo "${{ inputs.release_version }}" >> $NOTES_FILE
+          echo "" >> $NOTES_FILE
+          echo "Update config-linux-test.xml" >> $NOTES_FILE
+          gh release create ${{ inputs.release_version }} -d -p -t "${{ env.VERSION }}" --notes-file $NOTES_FILE
+          sleep 5
+          gh release upload ${{ inputs.release_version }} fx-${{ env.VERSION }}.jar
+          rm $NOTES_FILE
+
+      - name: remove fx.jar
+        run: |
+          rm -rf fx*.jar
+          git add .
+          git commit -m "remove fx.jar"
+          git push origin main
