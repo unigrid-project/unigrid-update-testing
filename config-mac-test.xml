@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2023-04-21T14:02:42.856Z">
+<configuration timestamp="2023-04-21T14:33:08.514Z">
     <base path="${user.home}/Library/Application Support/UNIGRID/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
@@ -8,7 +8,7 @@
         <property key="bootstrapVersion" value="1.0.11"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.14/fx-1.0.14.jar" size="693959" checksum="acfaf625" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.14/fx-1.0.14.jar" size="693960" checksum="2ff6634" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.5/unigrid-2.9.5-osx64.tar.gz" size="6354732" checksum="fde583d8" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.1/hedgehog-0.0.1-osx64.bin" size="116089528" checksum="4c34e4e2" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
