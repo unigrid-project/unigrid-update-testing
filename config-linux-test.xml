@@ -9,7 +9,7 @@
     </properties>
     <files>
         <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.14/fx-1.0.14.jar" size="693959" checksum="3c652350" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.5/unigrid-2.9.5-x86_64-linux-gnu.tar.gz" size="9318898" checksum="1092bd7e" modulepath="false" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/daemon/releases/download/v2.9.6/unigrid-2.9.6-x86_64-linux-gnu.tar.gz" size="9321217" checksum="61f4207a" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.2/hedgehog-0.0.2-x86_64-linux-gnu.bin" size="107987520" checksum="a293f3bb" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" size="1972167" checksum="ccf16270" modulepath="true" ignoreBootConflict="false"/>
