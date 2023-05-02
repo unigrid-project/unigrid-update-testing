@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2023-04-29T13:04:13.695Z">
+<configuration timestamp="2023-05-02T08:40:39.625Z">
     <base path="${user.home}/Library/Application Support/UNIGRID/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
         <property key="default.launcher.main.class" value="org.unigrid.janus.Janus"/>
         <property key="fx.version" value="1.0.14"/>
-        <property key="bootstrapVersion" value="1.0.11"/>
+        <property key="bootstrapVersion" value="1.0.12"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.14/fx-1.0.14.jar" size="698362" checksum="6adf7454" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.14/fx-1.0.14.jar" size="698424" checksum="9441717e" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.5/unigrid-2.9.5-osx64.tar.gz" size="6354732" checksum="fde583d8" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.2/hedgehog-0.0.2-osx64.bin" size="116089512" checksum="d4cd5803" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
@@ -26,7 +26,11 @@
             </addOpens>
         </file>
         <file uri="${maven.central}/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar" size="62154" checksum="494d22e9" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/glassfish/jaxb/jaxb-runtime/3.0.2/jaxb-runtime-3.0.2.jar" size="913701" checksum="281f36c" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/glassfish/jaxb/jaxb-runtime/3.0.2/jaxb-runtime-3.0.2.jar" size="913701" checksum="281f36c" modulepath="true" ignoreBootConflict="false">
+            <addExports>
+                <exports package="org.glassfish.jaxb" target="jakarta.json/jakarta.json.bind-api"/>
+            </addExports>
+        </file>
         <file uri="${maven.central}/org/glassfish/jaxb/jaxb-core/3.0.2/jaxb-core-3.0.2.jar" size="139727" checksum="5a3cde99" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/glassfish/jaxb/txw2/3.0.2/txw2-3.0.2.jar" size="72003" checksum="66ec1bce" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/sun/istack/istack-commons-runtime/4.0.1/istack-commons-runtime-4.0.1.jar" size="29896" checksum="7c061058" modulepath="true" ignoreBootConflict="false"/>
