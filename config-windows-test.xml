@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2023-05-02T12:59:09.524Z">
+<configuration timestamp="2023-05-02T13:41:39.829Z">
     <base path="${user.home}/AppData/Roaming/UNIGRID/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
@@ -8,7 +8,7 @@
         <property key="bootstrapVersion" value="1.0.12"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.14/fx-1.0.14.jar" size="698549" checksum="fdcd87fe" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.14/fx-1.0.14.jar" size="698570" checksum="1fe63d65" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.5/unigrid-2.9.5-win64.zip" size="8999801" checksum="ac926ee2" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.2/hedgehog-0.0.2-win64.exe" size="101576704" checksum="881bb04e" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
@@ -44,7 +44,11 @@
         <file uri="${maven.central}/org/glassfish/hk2/hk2-utils/3.0.3/hk2-utils-3.0.3.jar" size="131796" checksum="23e0a405" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar" size="851531" checksum="dca3aeef" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/glassfish/jersey/media/jersey-media-json-binding/3.0.5/jersey-media-json-binding-3.0.5.jar" size="26064" checksum="c082122c" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/jakarta/json/jakarta.json-api/2.0.2/jakarta.json-api-2.0.2.jar" size="46260" checksum="dd20a58c" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/jakarta/json/jakarta.json-api/2.0.2/jakarta.json-api-2.0.2.jar" size="46260" checksum="dd20a58c" modulepath="true" ignoreBootConflict="false">
+            <addExports>
+                <exports package="jakarta.json" target="org.glassfish.json"/>
+            </addExports>
+        </file>
         <file uri="${maven.central}/jakarta/json/bind/jakarta.json.bind-api/2.0.0/jakarta.json.bind-api-2.0.0.jar" size="35689" checksum="5906cce2" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/eclipse/parsson/parsson/1.0.0/parsson-1.0.0.jar" size="116384" checksum="838d7fa6" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/glassfish/jersey/core/jersey-common/3.0.5/jersey-common-3.0.5.jar" size="1204621" checksum="c1222d35" modulepath="true" ignoreBootConflict="false"/>
