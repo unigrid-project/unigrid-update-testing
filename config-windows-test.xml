@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2023-05-02T14:01:22.805Z">
+<configuration timestamp="2023-05-03T08:15:52.719Z">
     <base path="${user.home}/AppData/Roaming/UNIGRID/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
@@ -8,7 +8,7 @@
         <property key="bootstrapVersion" value="1.0.12"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.14/fx-1.0.14.jar" size="698585" checksum="dbc03f1a" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.14/fx-1.0.14.jar" size="698592" checksum="a6529588" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.5/unigrid-2.9.5-win64.zip" size="8999801" checksum="ac926ee2" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.2/hedgehog-0.0.2-win64.exe" size="101576704" checksum="881bb04e" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
@@ -22,7 +22,7 @@
         <file uri="${maven.central}/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" size="588337" checksum="4fa9d731" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/jakarta/xml/bind/jakarta.xml.bind-api/3.0.1/jakarta.xml.bind-api-3.0.1.jar" size="128941" checksum="949c8acb" modulepath="true" ignoreBootConflict="false">
             <addOpens>
-                <opens package="jakarta.xml.bind" target="fx"/>
+                <opens target="fx" package="jakarta.xml.bind"/>
             </addOpens>
         </file>
         <file uri="${maven.central}/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar" size="62154" checksum="494d22e9" modulepath="true" ignoreBootConflict="false"/>
@@ -63,7 +63,7 @@
         <file uri="${maven.central}/org/eclipse/yasson/2.0.0-M1/yasson-2.0.0-M1.jar" size="352107" checksum="642130d9" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/glassfish/jakarta.json/2.0.0-RC1/jakarta.json-2.0.0-RC1-module.jar" size="114543" checksum="2051a669" modulepath="true" ignoreBootConflict="false">
             <addExports>
-                <exports package="org.glassfish" target="jakarta.json"/>
+                <exports target="jakarta.json" package="org.glassfish.json"/>
             </addExports>
         </file>
         <file uri="${maven.central}/org/kordamp/ikonli/ikonli-javafx/12.3.0/ikonli-javafx-12.3.0.jar" size="37144" checksum="59b19f4b" modulepath="true" ignoreBootConflict="false"/>
