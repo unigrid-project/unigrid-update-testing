@@ -1,0 +1,58 @@
+name: Update config files
+
+on:
+  repository_dispatch:
+    types:
+    - dispatch-update-config
+  workflow_dispatch:
+    inputs:
+      distinct_id:
+        type: string
+        description: 'distinct_id used by return-dispatch'
+      branch:
+        type: string
+        description: 'Branch name'
+        default: 'main'
+        required: true
+
+env:
+  owner: unigrid-project
+  janus_repo: janus-java-testing
+  config_matcher: artifacts/config*test.xml
+
+jobs:
+  update-config:
+    name: Update config
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: echo distinct ID ${{ inputs.distinct_id }}
+        if: inputs.distinct_id != ''
+        run: echo ${{ inputs.distinct_id }}
+
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ inputs.branch }}
+
+      - run: mkdir -p artifacts
+
+      - name: Download artifact
+        id: download-artifact
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          github_token: ${{ secrets.ACTION_PAT }}
+          workflow: upload.yml
+          workflow_conclusion: success
+          branch: master
+          name: artifacts
+          path: artifacts
+          repo: ${{ env.owner }}/${{ env.janus_repo }}
+
+      - name: replace config
+        run: |
+          rsync -av ${{ env.config_matcher }} .
+          rm -rf artifacts
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Github actions - ${{ github.workflow }}
