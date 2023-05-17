@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2023-05-05T10:30:15.331Z">
+<configuration timestamp="2023-05-17T10:29:33.441Z">
     <base path="${user.home}/.unigrid/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
         <property key="default.launcher.main.class" value="org.unigrid.janus.Janus"/>
-        <property key="fx.version" value="1.0.15"/>
-        <property key="bootstrapVersion" value="1.0.12"/>
+        <property key="fx.version" value="2.1.1"/>
+        <property key="bootstrapVersion" value="2.1.1"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.15/fx-1.0.15.jar" size="698698" checksum="13027e90" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v2.1.1/fx-2.1.1.jar" size="685587" checksum="2455d8d0" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.7/unigrid-2.9.7-x86_64-linux-gnu.tar.gz" size="9321021" checksum="f2eba189" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.2/hedgehog-0.0.2-x86_64-linux-gnu.bin" size="107987520" checksum="a293f3bb" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
@@ -22,7 +22,7 @@
         <file uri="${maven.central}/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" size="588337" checksum="4fa9d731" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/jakarta/xml/bind/jakarta.xml.bind-api/3.0.1/jakarta.xml.bind-api-3.0.1.jar" size="128941" checksum="949c8acb" modulepath="true" ignoreBootConflict="false">
             <addOpens>
-                <opens target="fx" package="jakarta.xml.bind"/>
+                <opens package="jakarta.xml.bind" target="fx"/>
             </addOpens>
         </file>
         <file uri="${maven.central}/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar" size="62154" checksum="494d22e9" modulepath="true" ignoreBootConflict="false"/>
@@ -61,11 +61,7 @@
         <file uri="${maven.central}/jakarta/enterprise/jakarta.enterprise.cdi-api/3.0.0/jakarta.enterprise.cdi-api-3.0.0.jar" size="119330" checksum="7ccbc750" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/jboss/classfilewriter/jboss-classfilewriter/1.2.5.Final/jboss-classfilewriter-1.2.5.Final.jar" size="120414" checksum="b9a03747" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/eclipse/yasson/2.0.0-M1/yasson-2.0.0-M1.jar" size="352107" checksum="642130d9" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/glassfish/jakarta.json/2.0.0-RC1/jakarta.json-2.0.0-RC1-module.jar" size="114543" checksum="2051a669" modulepath="true" ignoreBootConflict="false">
-            <addExports>
-                <exports target="jakarta.json" package="org.glassfish.json"/>
-            </addExports>
-        </file>
+        <file uri="${maven.central}/org/glassfish/jakarta.json/2.0.0-RC1/jakarta.json-2.0.0-RC1-module.jar" size="114543" checksum="2051a669" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/kordamp/ikonli/ikonli-javafx/12.3.0/ikonli-javafx-12.3.0.jar" size="37144" checksum="59b19f4b" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/kordamp/ikonli/ikonli-core/12.3.0/ikonli-core-12.3.0.jar" size="14470" checksum="5f59d9f6" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/kordamp/ikonli/ikonli-fontawesome5-pack/12.3.0/ikonli-fontawesome5-pack-12.3.0.jar" size="302557" checksum="99e3daa" modulepath="true" ignoreBootConflict="false"/>
