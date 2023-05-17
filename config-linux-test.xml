@@ -8,7 +8,7 @@
         <property key="bootstrapVersion" value="1.0.12"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.15/fx-1.0.15.jar" size="698735" checksum="6ad73ba4" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.15/fx-1.0.15.jar" size="698328" checksum="c77b52b3" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemon/releases/download/v2.9.8/unigrid-2.9.8-x86_64-linux-gnu.tar.gz" size="9322958" checksum="efdea49e" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehog/releases/download/v0.0.3/hedgehog-0.0.3-x86_64-linux-gnu.bin" size="108290624" checksum="4318fbd" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
