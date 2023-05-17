@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2023-05-17T10:29:33.441Z">
+<configuration timestamp="2023-05-17T14:03:42.219Z">
     <base path="${user.home}/.unigrid/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
         <property key="default.launcher.main.class" value="org.unigrid.janus.Janus"/>
-        <property key="fx.version" value="2.1.1"/>
-        <property key="bootstrapVersion" value="2.1.1"/>
+        <property key="fx.version" value="1.0.15"/>
+        <property key="bootstrapVersion" value="1.0.12"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v2.1.1/fx-2.1.1.jar" size="685587" checksum="2455d8d0" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.15/fx-1.0.15.jar" size="698696" checksum="8fd6ee94" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.7/unigrid-2.9.7-x86_64-linux-gnu.tar.gz" size="9321021" checksum="f2eba189" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.2/hedgehog-0.0.2-x86_64-linux-gnu.bin" size="107987520" checksum="a293f3bb" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
@@ -20,11 +20,7 @@
         <file uri="${maven.central}/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" size="61829" checksum="e448532d" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar" size="246918" checksum="8698650c" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" size="588337" checksum="4fa9d731" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/jakarta/xml/bind/jakarta.xml.bind-api/3.0.1/jakarta.xml.bind-api-3.0.1.jar" size="128941" checksum="949c8acb" modulepath="true" ignoreBootConflict="false">
-            <addOpens>
-                <opens package="jakarta.xml.bind" target="fx"/>
-            </addOpens>
-        </file>
+        <file uri="${maven.central}/jakarta/xml/bind/jakarta.xml.bind-api/3.0.1/jakarta.xml.bind-api-3.0.1.jar" size="128941" checksum="949c8acb" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar" size="62154" checksum="494d22e9" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/glassfish/jaxb/jaxb-runtime/3.0.2/jaxb-runtime-3.0.2.jar" size="913701" checksum="281f36c" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/glassfish/jaxb/jaxb-core/3.0.2/jaxb-core-3.0.2.jar" size="139727" checksum="5a3cde99" modulepath="true" ignoreBootConflict="false"/>
