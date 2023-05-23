@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2023-05-23T10:46:11.670Z">
+<configuration timestamp="2023-05-23T12:13:29.429Z">
     <base path="${user.home}/.unigrid/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
@@ -8,7 +8,7 @@
         <property key="bootstrapVersion" value="1.0.12"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.16/fx-1.0.16.jar" size="699099" checksum="ad22f641" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.16/fx-1.0.16.jar" size="699110" checksum="5184e7a1" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.9/unigrid-2.9.9-x86_64-linux-gnu.tar.gz" size="9322816" checksum="cb1d3339" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.3/hedgehog-0.0.3-x86_64-linux-gnu.bin" size="108290624" checksum="4318fbd" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
@@ -60,7 +60,11 @@
         <file uri="${maven.central}/org/jboss/weld/probe/weld-probe-core/4.0.3.Final/weld-probe-core-4.0.3.Final.jar" size="817918" checksum="bce44f28" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/jakarta/enterprise/jakarta.enterprise.cdi-api/3.0.0/jakarta.enterprise.cdi-api-3.0.0.jar" size="119330" checksum="7ccbc750" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/jboss/classfilewriter/jboss-classfilewriter/1.2.5.Final/jboss-classfilewriter-1.2.5.Final.jar" size="120414" checksum="b9a03747" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/eclipse/yasson/2.0.0-M1/yasson-2.0.0-M1.jar" size="352107" checksum="642130d9" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/eclipse/yasson/2.0.0-M1/yasson-2.0.0-M1.jar" size="352107" checksum="642130d9" modulepath="true" ignoreBootConflict="false">
+            <addOpens>
+                <opens target="fx" package="org.eclipse.yasson"/>
+            </addOpens>
+        </file>
         <file uri="${maven.central}/org/glassfish/jakarta.json/2.0.0-RC1/jakarta.json-2.0.0-RC1-module.jar" size="114543" checksum="2051a669" modulepath="true" ignoreBootConflict="false">
             <addExports>
                 <exports target="jakarta.json" package="org.glassfish.json"/>
