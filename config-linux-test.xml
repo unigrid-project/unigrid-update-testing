@@ -9,8 +9,8 @@
     </properties>
     <files>
         <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.17/fx-1.0.17.jar" size="699097" checksum="da825634" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.9/unigrid-2.9.9-x86_64-linux-gnu.tar.gz" size="9322816" checksum="cb1d3339" modulepath="false" ignoreBootConflict="false"/>
-        <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.3/hedgehog-0.0.3-x86_64-linux-gnu.bin" size="108290624" checksum="4318fbd" modulepath="false" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/daemon/releases/download/v2.9.9/unigrid-2.9.9-x86_64-linux-gnu.tar.gz" size="9322816" checksum="cb1d3339" modulepath="false" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/hedgehog/releases/download/v0.0.4/hedgehog-0.0.4-x86_64-linux-gnu.bin" size="108319296" checksum="4fbc931b" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" size="1972167" checksum="ccf16270" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar" size="501879" checksum="d783a8c4" modulepath="true" ignoreBootConflict="false"/>
