@@ -123,6 +123,7 @@
         <file uri="${maven.central}\io\netty\netty-all\4.0.9.Final\netty-all-4.0.9.Final.jar" size="1448983" checksum="8c0e5219" modulepath="true" ignoreBootConflict="false">
             <addExports>
                 <exports target="io.grpc.protobuf" package="netty.all"/>
+                <exports target="io.grpc.internal" package="netty.all"/>
             </addExports>
         </file>
         <file uri="${maven.central}\com\google\protobuf\protobuf-java\3.21.7\protobuf-java-3.21.7.jar" size="1671418" checksum="4c616a12" modulepath="true" ignoreBootConflict="false"/>
