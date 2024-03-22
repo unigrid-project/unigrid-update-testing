@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2024-03-22T14:27:02.505Z">
+<configuration timestamp="2024-03-22T14:42:41.828Z">
     <base path="${user.home}/AppData/Roaming/UNIGRID/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
@@ -8,7 +8,7 @@
         <property key="bootstrapVersion" value="1.0.12"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.20/fx-1.0.20.jar" size="6302101" checksum="9192fe73" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.20/fx-1.0.20.jar" size="6302100" checksum="ef3c83d6" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.14/unigrid-2.9.14-win64.zip" size="8933841" checksum="cf2757b" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.8/hedgehog-0.0.8-win64.exe" size="112365568" checksum="e318d98d" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
@@ -87,61 +87,10 @@
         <file uri="${maven.central}/org/bitcoinj/bitcoinj-core/0.16.1/bitcoinj-core-0.16.1.jar" size="1257339" checksum="5be3f22b" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/bouncycastle/bcprov-jdk15to18/1.69/bcprov-jdk15to18-1.69.jar" size="4306375" checksum="c0dfb896" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/google/guava/guava/31.0.1-android/guava-31.0.1-android.jar" size="2804059" checksum="351a8cf9" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" size="4617" checksum="9b3a359d" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" size="2199" checksum="4c0c1982" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" size="208835" checksum="cc57102e" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar" size="5852" checksum="829fad75" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar" size="5867298" checksum="966017e1" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/json/json/20210307/json-20210307.jar" size="69710" checksum="1c8b6c53" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-netty/1.60.0/grpc-netty-1.60.0.jar" size="287257" checksum="519ef7f8" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-core/1.60.0/grpc-core-1.60.0.jar" size="626748" checksum="fdda4c12" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar" size="3120" checksum="a985654" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar" size="3109" checksum="f7144d06" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-context/1.60.0/grpc-context-1.60.0.jar" size="293" checksum="2c13b3c" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/netty/netty-codec-http2/4.1.100.Final/netty-codec-http2-4.1.100.Final.jar" size="486355" checksum="db72a117" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/netty/netty-common/4.1.100.Final/netty-common-4.1.100.Final.jar" size="660474" checksum="14bdc2d0" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/netty/netty-buffer/4.1.100.Final/netty-buffer-4.1.100.Final.jar" size="306739" checksum="4f5d228e" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/netty/netty-transport/4.1.100.Final/netty-transport-4.1.100.Final.jar" size="489999" checksum="183f343c" modulepath="true" ignoreBootConflict="false">
-            <addExports>
-                <exports target="okio" package="io.netty.bootstrap"/>
-            </addExports>
-        </file>
-        <file uri="${maven.central}/io/netty/netty-resolver/4.1.100.Final/netty-resolver-4.1.100.Final.jar" size="37795" checksum="ca442db0" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/netty/netty-codec/4.1.100.Final/netty-codec-4.1.100.Final.jar" size="345293" checksum="e0eb0813" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/netty/netty-handler/4.1.100.Final/netty-handler-4.1.100.Final.jar" size="561288" checksum="f9276ce4" modulepath="true" ignoreBootConflict="false">
-            <addExports>
-                <exports target="okio" package="io.netty.handler.traffic"/>
-                <exports target="netty.all" package="io.netty.handler.stream"/>
-                <exports target="netty.all" package="io.netty.handler.logging"/>
-            </addExports>
-        </file>
-        <file uri="${maven.central}/io/netty/netty-codec-http/4.1.100.Final/netty-codec-http-4.1.100.Final.jar" size="657672" checksum="67149d66" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/netty/netty-handler-proxy/4.1.100.Final/netty-handler-proxy-4.1.100.Final.jar" size="25492" checksum="db257889" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/netty/netty-codec-socks/4.1.100.Final/netty-codec-socks-4.1.100.Final.jar" size="120979" checksum="f6e0800c" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/com/google/errorprone/error_prone_annotations/2.20.0/error_prone_annotations-2.20.0.jar" size="16826" checksum="30dd004b" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar" size="6816" checksum="dc208cc7" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/netty/netty-transport-native-unix-common/4.1.100.Final/netty-transport-native-unix-common-4.1.100.Final.jar" size="43968" checksum="b21d4736" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-protobuf/1.60.0/grpc-protobuf-1.60.0.jar" size="5223" checksum="5156aca4" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-api/1.60.0/grpc-api-1.60.0.jar" size="296649" checksum="b5d8b241" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" size="19936" checksum="7f480c8" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-protobuf-lite/1.60.0/grpc-protobuf-lite-1.60.0.jar" size="7853" checksum="6ddea60c" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-stub/1.60.0/grpc-stub-1.60.0.jar" size="49976" checksum="5e4446f3" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-services/1.60.0/grpc-services-1.60.0.jar" size="829152" checksum="5d08ed98" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-util/1.60.0/grpc-util-1.60.0.jar" size="95870" checksum="3ba3ddfe" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar" size="9301" checksum="31bb6d63" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar" size="283367" checksum="919e8ef3" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/netty/netty-all/4.0.9.Final/netty-all-4.0.9.Final.jar" size="1448983" checksum="8c0e5219" modulepath="true" ignoreBootConflict="false">
-            <addExports>
-                <exports target="io.grpc.internal" package="netty.all"/>
-                <exports target="io.grpc.internal" package="io.netty.transport"/>
-                <exports target="io.grpc.protobuf" package="io.netty.transport"/>
-                <exports target="io.grpc.protobuf" package="netty.all"/>
-                <exports target="okio" package="io.netty.bootstrap"/>
-                <exports target="okio" package="io.netty.handler.traffic"/>
-            </addExports>
-        </file>
-        <file uri="${maven.central}/com/google/protobuf/protobuf-java/3.21.7/protobuf-java-3.21.7.jar" size="1671418" checksum="4c616a12" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/com/google/protobuf/protobuf-java-util/3.21.7/protobuf-java-util-3.21.7.jar" size="73690" checksum="20971742" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/web3j/crypto/5.0.0/crypto-5.0.0.jar" size="49501" checksum="f8933987" modulepath="true" ignoreBootConflict="false">
             <addExports>
                 <exports target="weld.environment.common" package="crypto"/>
