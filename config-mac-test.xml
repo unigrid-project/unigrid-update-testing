@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2024-03-25T12:00:42.163Z">
+<configuration timestamp="2024-03-28T14:16:08.256Z">
     <base path="${user.home}/Library/Application Support/UNIGRID/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
@@ -8,7 +8,7 @@
         <property key="bootstrapVersion" value="1.0.12"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.20/fx-1.0.20.jar" size="6302244" checksum="a0cc4234" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.20/fx-1.0.20.jar" size="6632281" checksum="e808a42b" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.14/unigrid-2.9.14-osx64.tar.gz" size="6285981" checksum="1662cb4b" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.8/hedgehog-0.0.8-osx64.bin" size="117826184" checksum="fe8ae17b" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
@@ -93,11 +93,7 @@
         <file uri="${maven.central}/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar" size="5852" checksum="829fad75" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar" size="5867298" checksum="966017e1" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/json/json/20210307/json-20210307.jar" size="69710" checksum="1c8b6c53" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-netty/1.60.0/grpc-netty-1.60.0.jar" size="287257" checksum="519ef7f8" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-core/1.60.0/grpc-core-1.60.0.jar" size="626748" checksum="fdda4c12" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar" size="3120" checksum="a985654" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar" size="3109" checksum="f7144d06" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-context/1.60.0/grpc-context-1.60.0.jar" size="293" checksum="2c13b3c" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/io/grpc/grpc-netty/1.62.2/grpc-netty-1.62.2.jar" size="287366" checksum="a0249820" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/io/netty/netty-codec-http2/4.1.100.Final/netty-codec-http2-4.1.100.Final.jar" size="486355" checksum="db72a117" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/io/netty/netty-common/4.1.100.Final/netty-common-4.1.100.Final.jar" size="660474" checksum="14bdc2d0" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/io/netty/netty-buffer/4.1.100.Final/netty-buffer-4.1.100.Final.jar" size="306739" checksum="4f5d228e" modulepath="true" ignoreBootConflict="false"/>
@@ -117,22 +113,25 @@
             </addExports>
         </file>
         <file uri="${maven.central}/io/netty/netty-codec-http/4.1.100.Final/netty-codec-http-4.1.100.Final.jar" size="657672" checksum="67149d66" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/io/grpc/grpc-core/1.62.2/grpc-core-1.62.2.jar" size="632829" checksum="c81bf0a3" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar" size="3120" checksum="a985654" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar" size="3109" checksum="f7144d06" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/io/grpc/grpc-context/1.62.2/grpc-context-1.62.2.jar" size="295" checksum="1de443e8" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/io/netty/netty-handler-proxy/4.1.100.Final/netty-handler-proxy-4.1.100.Final.jar" size="25492" checksum="db257889" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/io/netty/netty-codec-socks/4.1.100.Final/netty-codec-socks-4.1.100.Final.jar" size="120979" checksum="f6e0800c" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/com/google/errorprone/error_prone_annotations/2.20.0/error_prone_annotations-2.20.0.jar" size="16826" checksum="30dd004b" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar" size="16829" checksum="7203c31d" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar" size="6816" checksum="dc208cc7" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/io/netty/netty-transport-native-unix-common/4.1.100.Final/netty-transport-native-unix-common-4.1.100.Final.jar" size="43968" checksum="b21d4736" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-protobuf/1.60.0/grpc-protobuf-1.60.0.jar" size="5223" checksum="5156aca4" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-api/1.60.0/grpc-api-1.60.0.jar" size="296649" checksum="b5d8b241" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/io/grpc/grpc-util/1.62.2/grpc-util-1.62.2.jar" size="97987" checksum="ffa2ac60" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/io/grpc/grpc-protobuf/1.62.2/grpc-protobuf-1.62.2.jar" size="5224" checksum="996b494" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" size="19936" checksum="7f480c8" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-protobuf-lite/1.60.0/grpc-protobuf-lite-1.60.0.jar" size="7853" checksum="6ddea60c" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-stub/1.60.0/grpc-stub-1.60.0.jar" size="49976" checksum="5e4446f3" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-services/1.60.0/grpc-services-1.60.0.jar" size="829152" checksum="5d08ed98" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/io/grpc/grpc-util/1.60.0/grpc-util-1.60.0.jar" size="95870" checksum="3ba3ddfe" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar" size="9301" checksum="31bb6d63" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar" size="283367" checksum="919e8ef3" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/io/grpc/grpc-protobuf-lite/1.62.2/grpc-protobuf-lite-1.62.2.jar" size="7854" checksum="11bbc137" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/io/grpc/grpc-api/1.62.2/grpc-api-1.62.2.jar" size="297099" checksum="990ba972" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/io/grpc/grpc-stub/1.62.2/grpc-stub-1.62.2.jar" size="49978" checksum="e317dc4c" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/google/protobuf/protobuf-java/3.21.7/protobuf-java-3.21.7.jar" size="1671418" checksum="4c616a12" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/google/protobuf/protobuf-java-util/3.21.7/protobuf-java-util-3.21.7.jar" size="73690" checksum="20971742" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" size="8781" checksum="640298fe" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="${maven.central}/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar" size="258075" checksum="95248ab2" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/web3j/crypto/5.0.0/crypto-5.0.0.jar" size="49501" checksum="f8933987" modulepath="true" ignoreBootConflict="false">
             <addExports>
                 <exports target="weld.environment.common" package="crypto"/>
