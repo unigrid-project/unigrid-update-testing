@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2024-03-28T15:47:27.912Z">
+<configuration timestamp="2024-04-02T17:30:15.672Z">
     <base path="${user.home}/.unigrid/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
         <property key="default.launcher.main.class" value="org.unigrid.janus.Janus"/>
         <property key="fx.version" value="1.0.20"/>
-        <property key="bootstrapVersion" value="1.0.12"/>
+        <property key="bootstrapVersion" value="1.0.13"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.20/fx-1.0.20.jar" size="6799971" checksum="2aa2814e" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.20/fx-1.0.20.jar" size="6800032" checksum="b607fb0c" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.14/unigrid-2.9.14-x86_64-linux-gnu.tar.gz" size="9246257" checksum="8d6f5c84" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.8/hedgehog-0.0.8-x86_64-linux-gnu.bin" size="118780480" checksum="5269b3b2" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
@@ -99,6 +99,7 @@
         <file uri="${maven.central}/io/netty/netty-buffer/4.1.100.Final/netty-buffer-4.1.100.Final.jar" size="306739" checksum="4f5d228e" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/io/netty/netty-transport/4.1.100.Final/netty-transport-4.1.100.Final.jar" size="489999" checksum="183f343c" modulepath="true" ignoreBootConflict="false">
             <addExports>
+                <exports target="okio" package="io.netty.bootstrap"/>
                 <exports target="org.json" package="io.netty.channel.embedded"/>
             </addExports>
         </file>
@@ -129,13 +130,6 @@
         <file uri="${maven.central}/com/google/protobuf/protobuf-java-util/3.21.7/protobuf-java-util-3.21.7.jar" size="73690" checksum="20971742" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" size="8781" checksum="640298fe" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar" size="258075" checksum="95248ab2" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/web3j/crypto/5.0.0/crypto-5.0.0.jar" size="49501" checksum="f8933987" modulepath="true" ignoreBootConflict="false">
-            <addExports>
-                <exports target="org.checkerframework.checker.qual" package="utils"/>
-            </addExports>
-        </file>
-        <file uri="${maven.central}/org/web3j/abi/5.0.0/abi-5.0.0.jar" size="139708" checksum="e5128695" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/web3j/rlp/5.0.0/rlp-5.0.0.jar" size="5733" checksum="52ebc097" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar" size="751914" checksum="4570e5da" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/squareup/okhttp3/okhttp/4.9.3/okhttp-4.9.3.jar" size="792081" checksum="f64d70a" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/squareup/okio/okio/2.8.0/okio-2.8.0.jar" size="243179" checksum="283f398e" modulepath="true" ignoreBootConflict="false"/>
