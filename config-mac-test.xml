@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2024-04-02T17:30:15.672Z">
+<configuration timestamp="2024-04-05T12:30:38.340Z">
     <base path="${user.home}/Library/Application Support/UNIGRID/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
@@ -8,7 +8,7 @@
         <property key="bootstrapVersion" value="1.0.13"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.20/fx-1.0.20.jar" size="6800032" checksum="b607fb0c" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.20/fx-1.0.20.jar" size="4537891" checksum="6136b389" modulepath="true" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/daemonTesting/releases/download/v2.9.14/unigrid-2.9.14-osx64.tar.gz" size="6285981" checksum="1662cb4b" modulepath="false" ignoreBootConflict="false"/>
         <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.8/hedgehog-0.0.8-osx64.bin" size="126509720" checksum="41222b33" modulepath="false" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
@@ -99,7 +99,6 @@
         <file uri="${maven.central}/io/netty/netty-buffer/4.1.100.Final/netty-buffer-4.1.100.Final.jar" size="306739" checksum="4f5d228e" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/io/netty/netty-transport/4.1.100.Final/netty-transport-4.1.100.Final.jar" size="489999" checksum="183f343c" modulepath="true" ignoreBootConflict="false">
             <addExports>
-                <exports target="okio" package="io.netty.bootstrap"/>
                 <exports target="org.json" package="io.netty.channel.embedded"/>
             </addExports>
         </file>
