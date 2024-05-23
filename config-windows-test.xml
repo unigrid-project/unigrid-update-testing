@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2024-04-30T12:10:55.432Z">
+<configuration timestamp="2024-05-23T14:31:48.920Z">
     <base path="${user.home}/AppData/Roaming/UNIGRID/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
         <property key="default.launcher.main.class" value="org.unigrid.janus.Janus"/>
-        <property key="fx.version" value="1.0.25"/>
+        <property key="fx.mainnet.version" value="1.0.25"/>
         <property key="bootstrapVersion" value="1.0.13"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.25/fx-1.0.25.jar" size="6805053" checksum="f2652956" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.8/hedgehog-0.0.8-win64.exe" size="112365568" checksum="e318d98d" modulepath="false" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.25/fx-mainnet-1.0.25.jar" size="6805108" checksum="7cc96792" modulepath="true" ignoreBootConflict="false">
+            <chain>mainnet</chain>
+        </file>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" size="1972167" checksum="ccf16270" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar" size="501879" checksum="d783a8c4" modulepath="true" ignoreBootConflict="false"/>
@@ -98,6 +99,7 @@
         <file uri="${maven.central}/io/netty/netty-buffer/4.1.100.Final/netty-buffer-4.1.100.Final.jar" size="306739" checksum="4f5d228e" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/io/netty/netty-transport/4.1.100.Final/netty-transport-4.1.100.Final.jar" size="489999" checksum="183f343c" modulepath="true" ignoreBootConflict="false">
             <addExports>
+                <exports target="okio" package="io.netty.bootstrap"/>
                 <exports target="org.json" package="io.netty.channel.embedded"/>
             </addExports>
         </file>
@@ -136,5 +138,6 @@
         <file uri="${maven.central}/org/jetbrains/annotations/13.0/annotations-13.0.jar" size="17536" checksum="fa753034" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar" size="360738" checksum="75eae566" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/google/api/grpc/proto-google-common-protos/2.30.0/proto-google-common-protos-2.30.0.jar" size="2032758" checksum="8e51cf45" modulepath="true" ignoreBootConflict="false"/>
+        <file uri="https://github.com/unigrid-project/hedgehogTesting/releases/download/v0.0.8/hedgehog-0.0.8-win64.exe" size="112365568" checksum="e318d98d" modulepath="false" ignoreBootConflict="false"/>
     </files>
 </configuration>
