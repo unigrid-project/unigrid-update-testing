@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<configuration timestamp="2024-05-23T13:45:44.661Z">
+<configuration timestamp="2024-05-23T14:31:48.920Z">
     <base path="${user.home}/AppData/Roaming/UNIGRID/dependencies/lib/"/>
     <properties>
         <property key="maven.central" value="https://repo1.maven.org/maven2"/>
@@ -8,21 +8,11 @@
         <property key="bootstrapVersion" value="1.0.13"/>
     </properties>
     <files>
-        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.25/fx-legacy-1.0.25.jar" size="756824" checksum="74ca33f0" modulepath="true" ignoreBootConflict="false">
+        <file uri="https://github.com/unigrid-project/unigrid-update-testing/releases/download/v1.0.25/fx-legacy-1.0.25.jar" size="756824" checksum="8126d696" modulepath="true" ignoreBootConflict="false">
             <chain>legacy</chain>
         </file>
         <file uri="${maven.central}/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar" size="282591" checksum="3cf0c598" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" size="1972167" checksum="ccf16270" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/openjfx/javafx-controls/17-ea+7/javafx-controls-17-ea+7.jar" size="306" checksum="5c244c88" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/openjfx/javafx-controls/17-ea+7/javafx-controls-17-ea+7-linux.jar" size="2534033" checksum="edda8b47" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/openjfx/javafx-graphics/17-ea+7/javafx-graphics-17-ea+7.jar" size="306" checksum="21d47da" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/openjfx/javafx-graphics/17-ea+7/javafx-graphics-17-ea+7-linux.jar" size="4879620" checksum="ac656365" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/openjfx/javafx-base/17-ea+7/javafx-base-17-ea+7.jar" size="302" checksum="97d14934" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/openjfx/javafx-base/17-ea+7/javafx-base-17-ea+7-linux.jar" size="745947" checksum="aa5655be" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/openjfx/javafx-fxml/17-ea+7/javafx-fxml-17-ea+7.jar" size="302" checksum="85a4846" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/openjfx/javafx-fxml/17-ea+7/javafx-fxml-17-ea+7-linux.jar" size="129375" checksum="b6ca0e2c" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/openjfx/javafx-media/17-ea+7/javafx-media-17-ea+7.jar" size="303" checksum="f0a446e7" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/openjfx/javafx-media/17-ea+7/javafx-media-17-ea+7-linux.jar" size="1360185" checksum="87476c9b" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar" size="501879" checksum="d783a8c4" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar" size="285424" checksum="1e00f4fc" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/apache/commons/commons-configuration2/2.7/commons-configuration2-2.7.jar" size="622580" checksum="3381c114" modulepath="true" ignoreBootConflict="false"/>
@@ -42,7 +32,6 @@
         <file uri="${maven.central}/com/sun/istack/istack-commons-runtime/4.0.1/istack-commons-runtime-4.0.1.jar" size="29896" checksum="7c061058" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/com/sun/xml/fastinfoset/FastInfoset/2.1.0/FastInfoset-2.1.0.jar" size="316318" checksum="e6b8e4c3" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/kordamp/jipsy/jipsy-annotations/1.1.1/jipsy-annotations-1.1.1.jar" size="8723" checksum="e7af0112" modulepath="true" ignoreBootConflict="false"/>
-        <file uri="${maven.central}/org/update4j/update4j/1.5.9/update4j-1.5.9.jar" size="129526" checksum="e50405a0" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/net/java/dev/jna/jna-platform/5.5.0/jna-platform-5.5.0.jar" size="2681931" checksum="b8268a38" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/net/java/dev/jna/jna/5.5.0/jna-5.5.0.jar" size="1506993" checksum="a16f1c0c" modulepath="true" ignoreBootConflict="false"/>
         <file uri="${maven.central}/org/glassfish/jersey/core/jersey-client/3.0.5/jersey-client-3.0.5.jar" size="261150" checksum="412f7c34" modulepath="true" ignoreBootConflict="false"/>
